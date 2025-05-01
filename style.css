@@ -23,6 +23,8 @@ button {
     margin: 4px 2px;
     cursor: pointer;
     border-radius: 12px;
+    display: inline-block; /* Ensures buttons are inline */
+    vertical-align: middle; /* Aligns buttons vertically */
 }
 
 button:hover {
@@ -114,4 +116,9 @@ input, textarea {
         background-size: 200%;
         background-position: right;
     }
+}
+
+.buttons {
+    display: flex; 
+    gap: 10px;
 }
